@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class GameManager_TurnControl : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private bool turn;
+    //0 = player 1
+    //1 = player 2
+
+    public void SwitchTurns()
     {
-        
+        if (turn)
+        {
+            turn = false;
+        }
+        else
+        {
+            turn = true;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public bool GetTurn()
     {
-        
+        return turn;
     }
 }

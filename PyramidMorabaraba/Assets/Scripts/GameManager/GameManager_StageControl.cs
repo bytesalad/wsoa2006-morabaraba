@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class GameManager_StageControl : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private int stage;
+    [SerializeField] private int numStages;
+    //1 = stage 1
+    //2 = stage 2
 
-    // Update is called once per frame
-    void Update()
+    public void SwitchStage()
     {
-        
+        if (stage < numStages)
+        {
+            stage++;
+        }
+        else
+        {
+            stage = 1;
+        }
     }
 }
