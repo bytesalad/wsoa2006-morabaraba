@@ -8,7 +8,7 @@ public class Node_Colour : MonoBehaviour
 
     [SerializeField] private Color player2Colour;
 
-    [SerializeField] private Color noPlayerColour;
+    [SerializeField] private Color noPlayerColour; //is not occupied by player nodes
 
     [SerializeField] private Color highlightedColor;
 
