@@ -4,23 +4,24 @@ using UnityEngine;
 
 public class GameManager_TurnControl : MonoBehaviour
 {
-    [SerializeField] private bool turn;
+    [SerializeField] private int turn = 0;
     //0 = player 1
     //1 = player 2
 
     public void SwitchTurns()
     {
-        if (turn)
+        if (turn == 0)
         {
-            turn = false;
+            turn = 1;
         }
         else
         {
-            turn = true;
+            turn = 0;
         }
+        Debug.Log("Turn: " + turn.ToString());
     }
 
-    public bool GetTurn()
+    public int GetTurn()
     {
         return turn;
     }

@@ -16,4 +16,19 @@ public class Node_Colour : MonoBehaviour
     {
         gameObject.GetComponent<MeshRenderer>().materials[0].color = highlightedColor;
     }
+
+    public void SetPlayer1()
+    {
+        gameObject.GetComponent<MeshRenderer>().materials[0].color = player1Colour;
+    }
+
+    public void SetPlayer2()
+    {
+        gameObject.GetComponent<MeshRenderer>().materials[0].color = player2Colour;
+    }
+
+    public void SetNoPlayer()
+    {
+        gameObject.GetComponent<MeshRenderer>().materials[0].color = noPlayerColour;
+    }
 }

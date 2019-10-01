@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Node_Click : MonoBehaviour
 {
+    [SerializeField] private Player_Behaviour playerBehaviour;
     private void OnMouseDown()
     {
-        gameObject.GetComponent<Node_Colour>().Highlight();
+        playerBehaviour.ClickNode(gameObject.GetComponent<Node>());
     }
 }

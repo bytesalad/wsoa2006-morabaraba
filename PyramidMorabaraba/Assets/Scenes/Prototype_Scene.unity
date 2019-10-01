@@ -212,6 +212,56 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 794528138}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &51361284 stripped
@@ -382,11 +432,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: cnr
@@ -412,6 +457,61 @@ PrefabInstance:
       propertyPath: S
       value: 
       objectReference: {fileID: 1219597606}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &294277003 stripped
@@ -420,6 +520,52 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 294277002}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &312761990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 312761991}
+  - component: {fileID: 312761992}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &312761991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312761990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &312761992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312761990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 214b623a7097d744b990db42461b3edb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unplacedTokens: 9
+  stageControl: {fileID: 758631065}
+  turnControl: {fileID: 758631064}
 --- !u!1001 &316862086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -497,11 +643,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: level
@@ -522,6 +663,61 @@ PrefabInstance:
       propertyPath: S
       value: 
       objectReference: {fileID: 928220171}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &316862087 stripped
@@ -619,11 +815,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: level
@@ -644,6 +835,61 @@ PrefabInstance:
       propertyPath: S
       value: 
       objectReference: {fileID: 1733705175}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &455256496 stripped
@@ -902,11 +1148,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: level
@@ -932,6 +1173,61 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 1670526033}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &701460027 stripped
@@ -1108,11 +1404,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: cnr
@@ -1143,6 +1434,61 @@ PrefabInstance:
       propertyPath: S
       value: 
       objectReference: {fileID: 2077751901}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &742878223 stripped
@@ -1160,6 +1506,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 758631063}
+  - component: {fileID: 758631065}
+  - component: {fileID: 758631064}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1181,6 +1529,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &758631064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758631062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9743a25e3feb4f44e8c3bb477c93b46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turn: 0
+--- !u!114 &758631065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758631062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6556dc592c95de5499a0d71421924a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stage: 1
+  numStages: 2
 --- !u!114 &787473817 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
@@ -1314,6 +1689,56 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 787473817}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &849697788 stripped
@@ -1399,11 +1824,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: level
@@ -1429,6 +1849,61 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 1044565277}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &864210024 stripped
@@ -1565,6 +2040,56 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 1733705175}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &1028109959 stripped
@@ -1674,11 +2199,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: level
@@ -1704,6 +2224,61 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 920349825}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &1087774981 stripped
@@ -1789,11 +2364,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: level
@@ -1819,6 +2389,61 @@ PrefabInstance:
       propertyPath: S
       value: 
       objectReference: {fileID: 1039611408}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &1120835193 stripped
@@ -1952,11 +2577,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: cnr
@@ -1987,6 +2607,61 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 1192105690}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &1305349713 stripped
@@ -2092,6 +2767,56 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 377401952}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &1391086771 stripped
@@ -2177,11 +2902,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: cnr
@@ -2212,6 +2932,61 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 90640779}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &1416292618 stripped
@@ -2297,11 +3072,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: level
@@ -2322,6 +3092,61 @@ PrefabInstance:
       propertyPath: S
       value: 
       objectReference: {fileID: 636913630}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &1439206272 stripped
@@ -2419,11 +3244,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: cnr
@@ -2449,6 +3269,61 @@ PrefabInstance:
       propertyPath: S
       value: 
       objectReference: {fileID: 377401952}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &1524806430 stripped
@@ -2565,11 +3440,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: cnr
@@ -2600,6 +3470,61 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 1829012219}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &1605259096 stripped
@@ -2685,21 +3610,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: noPlayerColour.r
-      value: 0.627451
-      objectReference: {fileID: 0}
-    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: noPlayerColour.g
-      value: 0.9843137
-      objectReference: {fileID: 0}
-    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: noPlayerColour.b
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: W
@@ -2715,6 +3625,71 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 928220171}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: noPlayerColour.r
+      value: 0.627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: noPlayerColour.g
+      value: 0.9843137
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: noPlayerColour.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &1653627057 stripped
@@ -2827,6 +3802,56 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 636913630}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &1713410828 stripped
@@ -3044,11 +4069,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: cnr
@@ -3074,6 +4094,61 @@ PrefabInstance:
       propertyPath: S
       value: 
       objectReference: {fileID: 787473817}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &1902326137 stripped
@@ -3159,11 +4234,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: level
@@ -3184,6 +4254,61 @@ PrefabInstance:
       propertyPath: S
       value: 
       objectReference: {fileID: 794528138}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &2012060061 stripped
@@ -3289,6 +4414,56 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 1219597606}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &2043875827 stripped
@@ -3374,11 +4549,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
     - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
         type: 3}
       propertyPath: cnr
@@ -3404,6 +4574,61 @@ PrefabInstance:
       propertyPath: S
       value: 
       objectReference: {fileID: 1500760254}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073640694765320155, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7761fe0db3fcd54b8a15174af32aee0, type: 2}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &2059372678 stripped
@@ -3526,6 +4751,56 @@ PrefabInstance:
       propertyPath: N
       value: 
       objectReference: {fileID: 1500760254}
+    - target: {fileID: 7639938486339269517, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.r
+      value: 0.8956442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player1Colour.b
+      value: 0.53092736
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.g
+      value: 0.499682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131012264995055609, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: player2Colour.b
+      value: 0.46564615
+      objectReference: {fileID: 0}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: stageControl
+      value: 
+      objectReference: {fileID: 758631065}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: turnControl
+      value: 
+      objectReference: {fileID: 758631064}
+    - target: {fileID: 308001242297718553, guid: 1af9e44d47b87664db3085d20976793f,
+        type: 3}
+      propertyPath: playerBehaviour
+      value: 
+      objectReference: {fileID: 312761992}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af9e44d47b87664db3085d20976793f, type: 3}
 --- !u!4 &2073640695543515114 stripped

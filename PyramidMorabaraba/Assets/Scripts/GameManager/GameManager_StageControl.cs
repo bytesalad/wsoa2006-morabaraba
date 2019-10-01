@@ -20,4 +20,9 @@ public class GameManager_StageControl : MonoBehaviour
             stage = 1;
         }
     }
+
+    public int GetStage()
+    {
+        return stage;
+    }
 }
