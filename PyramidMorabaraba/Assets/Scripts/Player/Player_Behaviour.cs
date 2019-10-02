@@ -28,7 +28,9 @@ public class Player_Behaviour : MonoBehaviour
                         unplacedTokensP1--;
                         nodeRef.GetComponent<Node_Colour>().SetPlayer1();
                         nodeRef.playerSet = PLAYER.PLAYER1;
-                        board.Check3P1();
+                        int travReturnNo = board.Check3P1();
+                        Debug.Log("Traversal Return: " + travReturnNo.ToString());
+                        //board traverses to check if any row3's are found for this player and returns a valid one
                         if (!canRemoveToken)
                         {
                             turnControl.SwitchTurns();
@@ -39,7 +41,9 @@ public class Player_Behaviour : MonoBehaviour
                         unplacedTokensP2--;
                         nodeRef.GetComponent<Node_Colour>().SetPlayer2();
                         nodeRef.playerSet = PLAYER.PLAYER2;
-                        board.Check3P2();
+                        int travReturnNo = board.Check3P2();
+                        Debug.Log("Traversal Return: " + travReturnNo.ToString());
+                        //board traverses to check if any row3's are found for this player and returns a valid one
                         if (!canRemoveToken)
                         {
                             turnControl.SwitchTurns();

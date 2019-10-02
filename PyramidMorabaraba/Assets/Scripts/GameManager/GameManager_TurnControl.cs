@@ -18,7 +18,6 @@ public class GameManager_TurnControl : MonoBehaviour
         {
             turn = 0;
         }
-        Debug.Log("Turn: " + turn.ToString());
     }
 
     public int GetTurn()

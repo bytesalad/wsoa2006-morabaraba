@@ -106,8 +106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaa2b2c9603a70c4c90d923c1ff21a9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1Colour: {r: 0, g: 0, b: 0, a: 0}
-  player2Colour: {r: 0, g: 0, b: 0, a: 0}
+  player1Colour: {r: 0.8956442, g: 0.9150943, b: 0.53092736, a: 0}
+  player2Colour: {r: 0.9056604, g: 0.499682, b: 0.46564615, a: 0}
   noPlayerColour: {r: 0, g: 0, b: 0, a: 0}
   highlightedColor: {r: 0.7465127, g: 0.8867924, b: 0.30535775, a: 0}
 --- !u!114 &308001242297718553
@@ -122,6 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c97ef8cbceb4ea940815dad19167eefe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerBehaviour: {fileID: 0}
 --- !u!114 &7639938486339269517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,3 +140,5 @@ MonoBehaviour:
   S: {fileID: 0}
   W: {fileID: 0}
   E: {fileID: 0}
+  playerSet: 0
+  level: 0
