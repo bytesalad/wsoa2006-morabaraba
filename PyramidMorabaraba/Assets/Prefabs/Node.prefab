@@ -108,8 +108,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1Colour: {r: 0.8956442, g: 0.9150943, b: 0.53092736, a: 0}
   player2Colour: {r: 0.9056604, g: 0.499682, b: 0.46564615, a: 0}
-  noPlayerColour: {r: 0, g: 0, b: 0, a: 0}
-  highlightedColor: {r: 0.7465127, g: 0.8867924, b: 0.30535775, a: 0}
+  noPlayerColour: {r: 0.6273585, g: 0.9829866, b: 1, a: 1}
+  highlightedColor: {r: 0.97100055, g: 0.9811321, b: 0.93948025, a: 0}
 --- !u!114 &308001242297718553
 MonoBehaviour:
   m_ObjectHideFlags: 0

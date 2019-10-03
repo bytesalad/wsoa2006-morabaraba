@@ -45,10 +45,10 @@ public class Board : MonoBehaviour
             //Same W,N,E,N,W,W,S,S algorithm every time
             // W //
             temp = temp.W;
-            temp.GetComponent<Node_Colour>().Highlight();
+            //temp.GetComponent<Node_Colour>().Highlight();
             if ((temp.W != null) && (temp.E != null))
             {
-                if ((temp.W.playerSet == PLAYER.PLAYER1) && (temp.E.playerSet == PLAYER.PLAYER1))
+                if ((temp.W.playerSet == PLAYER.PLAYER1) && (temp.E.playerSet == PLAYER.PLAYER1) && (temp.playerSet == PLAYER.PLAYER1))
                 {
                     player1row3array[row3number, 0] = true; // a row 3 has been found.
                     if (!player1row3array[row3number, 1]) // if this row 3 has not been checked already
@@ -66,11 +66,11 @@ public class Board : MonoBehaviour
 
             // N //
             temp = temp.N;
-            temp.GetComponent<Node_Colour>().Highlight();
+            //temp.GetComponent<Node_Colour>().Highlight();
             row3number++;
             if ((temp.N != null) && (temp.S != null))
             {
-                if ((temp.N.playerSet == PLAYER.PLAYER1) && (temp.S.playerSet == PLAYER.PLAYER1))
+                if ((temp.N.playerSet == PLAYER.PLAYER1) && (temp.S.playerSet == PLAYER.PLAYER1) && (temp.playerSet == PLAYER.PLAYER1))
                 {
                     player1row3array[row3number, 0] = true; // a row 3 has been found.
                     if (!player1row3array[row3number, 1]) // if this row 3 has not been checked already
@@ -88,7 +88,7 @@ public class Board : MonoBehaviour
             row3number++;
             if ((temp.W != null) && (temp.E != null))
             {
-                if ((temp.W.playerSet == PLAYER.PLAYER1) && (temp.E.playerSet == PLAYER.PLAYER1))
+                if ((temp.W.playerSet == PLAYER.PLAYER1) && (temp.E.playerSet == PLAYER.PLAYER1) && (temp.playerSet == PLAYER.PLAYER1))
                 {
                     player1row3array[row3number, 0] = true; // a row 3 has been found.
                     if (!player1row3array[row3number, 1]) // if this row 3 has not been checked already
@@ -108,11 +108,11 @@ public class Board : MonoBehaviour
             {
                 // E //
                 temp = temp.E;
-                temp.GetComponent<Node_Colour>().Highlight();
+                //temp.GetComponent<Node_Colour>().Highlight();
                 row3number++;
                 if ((temp.N != null) && (temp.S != null))
                 {
-                    if ((temp.N.playerSet == PLAYER.PLAYER1) && (temp.S.playerSet == PLAYER.PLAYER1))
+                    if ((temp.N.playerSet == PLAYER.PLAYER1) && (temp.S.playerSet == PLAYER.PLAYER1) && (temp.playerSet == PLAYER.PLAYER1))
                     {
                         player1row3array[row3number, 0] = true; // a row 3 has been found.
                         if (!player1row3array[row3number, 1]) // if this row 3 has not been checked already
@@ -131,16 +131,16 @@ public class Board : MonoBehaviour
 
             // N //
             temp = temp.N;
-            temp.GetComponent<Node_Colour>().Highlight();
+            //temp.GetComponent<Node_Colour>().Highlight();
             // nothing to check
 
             // W //
             temp = temp.W;
-            temp.GetComponent<Node_Colour>().Highlight();
+            //temp.GetComponent<Node_Colour>().Highlight();
             row3number++;
             if ((temp.W != null) && (temp.E != null))
             {
-                if ((temp.W.playerSet == PLAYER.PLAYER1) && (temp.E.playerSet == PLAYER.PLAYER1))
+                if ((temp.W.playerSet == PLAYER.PLAYER1) && (temp.E.playerSet == PLAYER.PLAYER1) && (temp.playerSet == PLAYER.PLAYER1))
                 {
                     player1row3array[row3number, 0] = true; // a row 3 has been found.
                     if (!player1row3array[row3number, 1]) // if this row 3 has not been checked already
@@ -158,18 +158,18 @@ public class Board : MonoBehaviour
 
             // W //
             temp = temp.W;
-            temp.GetComponent<Node_Colour>().Highlight();
+            //temp.GetComponent<Node_Colour>().Highlight();
             //nothing to check
 
             if (row3number < numberChecks)
             {
                 // S //
                 temp = temp.S;
-                temp.GetComponent<Node_Colour>().Highlight();
+                //temp.GetComponent<Node_Colour>().Highlight();
                 row3number++;
                 if ((temp.N != null) && (temp.S != null))
                 {
-                    if ((temp.N.playerSet == PLAYER.PLAYER1) && (temp.S.playerSet == PLAYER.PLAYER1))
+                    if ((temp.N.playerSet == PLAYER.PLAYER1) && (temp.S.playerSet == PLAYER.PLAYER1) && (temp.playerSet == PLAYER.PLAYER1))
                     {
                         player1row3array[row3number, 0] = true; // a row 3 has been found.
                         if (!player1row3array[row3number, 1]) // if this row 3 has not been checked already
@@ -188,7 +188,7 @@ public class Board : MonoBehaviour
 
             // S //
             temp = temp.S;
-            temp.GetComponent<Node_Colour>().Highlight();
+            //temp.GetComponent<Node_Colour>().Highlight();
             row3number++;
         }
 
@@ -197,6 +197,170 @@ public class Board : MonoBehaviour
 
     public int Check3P2()
     {
+        Node temp;
+        temp = head;
+        int row3number = 0;//first index of arraý
+
+
+        //debug by highlighting every node traversed.
+        //first node is always gonna be a corner node so no checking needed.
+
+        ///////////////////////////////////////////
+        // 1 //
+        ///////////////////////////////////////////
+        //MOVE WEST
+        while (row3number < numberChecks) //there are 20 possibilities that need to be checked.
+        {
+            //Same W,N,E,N,W,W,S,S algorithm every time
+            // W //
+            temp = temp.W;
+            //temp.GetComponent<Node_Colour>().Highlight();
+            if ((temp.W != null) && (temp.E != null))
+            {
+                if ((temp.W.playerSet == PLAYER.PLAYER2) && (temp.E.playerSet == PLAYER.PLAYER2) && (temp.playerSet == PLAYER.PLAYER2))
+                {
+                    player2row3array[row3number, 0] = true; // a row 3 has been found.
+                    if (!player2row3array[row3number, 1]) // if this row 3 has not been checked already
+                    {
+                        player2row3array[row3number, 1] = true;
+                        return row3number;
+                    }
+                }
+                else
+                {
+                    player2row3array[row3number, 0] = false;
+                    player2row3array[row3number, 1] = false;
+                }
+            }
+
+            // N //
+            temp = temp.N;
+            //temp.GetComponent<Node_Colour>().Highlight();
+            row3number++;
+            if ((temp.N != null) && (temp.S != null))
+            {
+                if ((temp.N.playerSet == PLAYER.PLAYER2) && (temp.S.playerSet == PLAYER.PLAYER2) && (temp.playerSet == PLAYER.PLAYER2))
+                {
+                    player2row3array[row3number, 0] = true; // a row 3 has been found.
+                    if (!player2row3array[row3number, 1]) // if this row 3 has not been checked already
+                    {
+                        player2row3array[row3number, 1] = true;
+                        return row3number;
+                    }
+                }
+                else
+                {
+                    player2row3array[row3number, 0] = false;
+                    player2row3array[row3number, 1] = false;
+                }
+            }
+            row3number++;
+            if ((temp.W != null) && (temp.E != null))
+            {
+                if ((temp.W.playerSet == PLAYER.PLAYER2) && (temp.E.playerSet == PLAYER.PLAYER2) && (temp.playerSet == PLAYER.PLAYER2))
+                {
+                    player2row3array[row3number, 0] = true; // a row 3 has been found.
+                    if (!player2row3array[row3number, 1]) // if this row 3 has not been checked already
+                    {
+                        player2row3array[row3number, 1] = true;
+                        return row3number;
+                    }
+                }
+                else
+                {
+                    player2row3array[row3number, 0] = false;
+                    player2row3array[row3number, 1] = false;
+                }
+            }
+
+            if (row3number < 6) // East check only needs to be done once in the beginning
+            {
+                // E //
+                temp = temp.E;
+                //temp.GetComponent<Node_Colour>().Highlight();
+                row3number++;
+                if ((temp.N != null) && (temp.S != null))
+                {
+                    if ((temp.N.playerSet == PLAYER.PLAYER2) && (temp.S.playerSet == PLAYER.PLAYER2) && (temp.playerSet == PLAYER.PLAYER2))
+                    {
+                        player2row3array[row3number, 0] = true; // a row 3 has been found.
+                        if (!player2row3array[row3number, 1]) // if this row 3 has not been checked already
+                        {
+                            player2row3array[row3number, 1] = true;
+                            return row3number;
+                        }
+                    }
+                    else
+                    {
+                        player2row3array[row3number, 0] = false;
+                        player2row3array[row3number, 1] = false;
+                    }
+                }
+            }
+
+            // N //
+            temp = temp.N;
+            //temp.GetComponent<Node_Colour>().Highlight();
+            // nothing to check
+
+            // W //
+            temp = temp.W;
+            //temp.GetComponent<Node_Colour>().Highlight();
+            row3number++;
+            if ((temp.W != null) && (temp.E != null))
+            {
+                if ((temp.W.playerSet == PLAYER.PLAYER2) && (temp.E.playerSet == PLAYER.PLAYER2) && (temp.playerSet == PLAYER.PLAYER2))
+                {
+                    player2row3array[row3number, 0] = true; // a row 3 has been found.
+                    if (!player2row3array[row3number, 1]) // if this row 3 has not been checked already
+                    {
+                        player2row3array[row3number, 1] = true;
+                        return row3number;
+                    }
+                }
+                else
+                {
+                    player2row3array[row3number, 0] = false;
+                    player2row3array[row3number, 1] = false;
+                }
+            }
+
+            // W //
+            temp = temp.W;
+            //temp.GetComponent<Node_Colour>().Highlight();
+            //nothing to check
+
+            if (row3number <= numberChecks)
+            {
+                // S //
+                temp = temp.S;
+                //temp.GetComponent<Node_Colour>().Highlight();
+                row3number++;
+                if ((temp.N != null) && (temp.S != null))
+                {
+                    if ((temp.N.playerSet == PLAYER.PLAYER2) && (temp.S.playerSet == PLAYER.PLAYER2) && (temp.playerSet == PLAYER.PLAYER2))
+                    {
+                        player2row3array[row3number, 0] = true; // a row 3 has been found.
+                        if (!player2row3array[row3number, 1]) // if this row 3 has not been checked already
+                        {
+                            player2row3array[row3number, 1] = true;
+                            return row3number;
+                        }
+                    }
+                    else
+                    {
+                        player2row3array[row3number, 0] = false;
+                        player2row3array[row3number, 1] = false;
+                    }
+                }
+            }
+
+            // S //
+            temp = temp.S;
+            //temp.GetComponent<Node_Colour>().Highlight();
+            row3number++;
+        }
+
         return -1;
     }
 }
